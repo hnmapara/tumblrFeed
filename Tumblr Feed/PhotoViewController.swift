@@ -66,7 +66,7 @@ class PhotoViewController: UIViewController, UITableViewDelegate, UITableViewDat
             if let tempPhotos = curDict.value(forKeyPath: "photos") as? Array<NSDictionary> {
                 if  let photoDict = tempPhotos[0] as? NSDictionary {
                     if let photoUrl = photoDict.value(forKeyPath:"original_size.url") as? String {
-                        cell.cellImage.setImageWithUrl(NSURL(String: photoUrl))
+                        cell.cellImage.setImageWith(URL(string: photoUrl)!);
                     }
                 }
             }
