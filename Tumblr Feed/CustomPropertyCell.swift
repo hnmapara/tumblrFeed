@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AFNetworking
 
 class CustomPropertyCell: UITableViewCell {
 
@@ -14,6 +15,7 @@ class CustomPropertyCell: UITableViewCell {
     @IBOutlet weak var cellImage: UIImageView!
     
     var _post: [String:String]?
+    var photoUrl:String? = nil
     
     //func setPost(post: [String:String]?) {
       //  self._post = post

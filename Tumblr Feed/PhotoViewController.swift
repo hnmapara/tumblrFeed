@@ -14,13 +14,14 @@ class PhotoViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     @IBOutlet weak var tableView: UITableView!
     var posts: Array? = []
+    var valueToPass:String!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         tableView.dataSource = self
-        tableView.estimatedRowHeight = 100
-        tableView.rowHeight = UITableViewAutomaticDimension
+        //tableView.estimatedRowHeight = 300
+        //tableView.rowHeight = UITableViewAutomaticDimension
         
         let apiKey = "Q6vHoaVm5L1u2ZAW1fqv3Jw48gFzYVg9P0vH0VHl3GVy6quoGV"
         let url = URL(string:"https://api.tumblr.com/v2/blog/humansofnewyork.tumblr.com/posts/photo?api_key=\(apiKey)")
@@ -66,15 +67,13 @@ class PhotoViewController: UIViewController, UITableViewDelegate, UITableViewDat
             if let tempPhotos = curDict.value(forKeyPath: "photos") as? Array<NSDictionary> {
                 if  let photoDict = tempPhotos[0] as? NSDictionary {
                     if let photoUrl = photoDict.value(forKeyPath:"original_size.url") as? String {
-                        cell.cellImage.setImageWithUrl(NSURL(String: photoUrl))
+                        cell.cellImage.setImageWith(URL(string: photoUrl)!)
+                        cell.photoUrl = photoUrl
                     }
                 }
             }
         }
         
-        
-        //cell.cellImage.setImageWith(NSURL(string: tempPhotos?[0]["original_size"]["url"] as? String))
-        //cell.cellImage.setImageWithUrl(tempPhotos?[0]["original_size"]["url"] as? String)
         return cell
     }
     //func tableView(_ tableView: UITableView, didEndDisplaying cell: UITableViewCell, forRowAt indexPath: IndexPath) {
@@ -83,6 +82,20 @@ class PhotoViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return (posts?.count)!
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if (segue.identifier == "MasterDetail") {
+            // initialize new view controller and cast it as your view controller
+            let viewController = segue.destination as! DetailViewController
+            // your new view controller should have property that will store passed value
+            let indexPath = tableView.indexPathForSelectedRow!
+            let currentCell = tableView.cellForRow(at: indexPath)! as! CustomPropertyCell
+            
+            valueToPass = currentCell.photoUrl
+            
+            viewController.photoUrl = valueToPass
+        }
     }
     
 }

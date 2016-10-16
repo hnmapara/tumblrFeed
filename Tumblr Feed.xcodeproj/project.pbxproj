@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21771A4B1DB3067A0038DA64 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21771A4A1DB3067A0038DA64 /* DetailViewController.swift */; };
 		21FFD4D71DAF2B81002D726D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FFD4D61DAF2B81002D726D /* AppDelegate.swift */; };
 		21FFD4D91DAF2B81002D726D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FFD4D81DAF2B81002D726D /* ViewController.swift */; };
 		21FFD4DC1DAF2B81002D726D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21FFD4DA1DAF2B81002D726D /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 /* Begin PBXFileReference section */
 		028CF558D931D0E9D3064AA5 /* Pods_Tumblr_FeedTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tumblr_FeedTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ADE717389B6AD042E3AF668 /* Pods_Tumblr_Feed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tumblr_Feed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21771A4A1DB3067A0038DA64 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		21FFD4D31DAF2B81002D726D /* Tumblr Feed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tumblr Feed.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21FFD4D61DAF2B81002D726D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21FFD4D81DAF2B81002D726D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				21FFD4E21DAF2B81002D726D /* Info.plist */,
 				21FFD5041DAF33F8002D726D /* PhotoViewController.swift */,
 				21FFD5061DAF3E66002D726D /* CustomPropertyCell.swift */,
+				21771A4A1DB3067A0038DA64 /* DetailViewController.swift */,
 			);
 			path = "Tumblr Feed";
 			sourceTree = "<group>";
@@ -438,6 +441,7 @@
 			files = (
 				21FFD4D91DAF2B81002D726D /* ViewController.swift in Sources */,
 				21FFD4D71DAF2B81002D726D /* AppDelegate.swift in Sources */,
+				21771A4B1DB3067A0038DA64 /* DetailViewController.swift in Sources */,
 				21FFD5051DAF33F8002D726D /* PhotoViewController.swift in Sources */,
 				21FFD5071DAF3E66002D726D /* CustomPropertyCell.swift in Sources */,
 			);

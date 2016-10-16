@@ -10,13 +10,123 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Tumblr Feed/PhotoViewController.swift"
-            timestampString = "498065584.354009"
+            timestampString = "498272602.356209"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
             landmarkName = "PhotoViewController"
             landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tumblr Feed/DetailViewController.swift"
+            timestampString = "498274301.114116"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "DetailViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tumblr_Feed.DetailViewController.photoUrl.getter : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "Tumblr Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mapara/work/Lab/iosLab/Tumblr%20Feed/Tumblr%20Feed/DetailViewController.swift"
+                  timestampString = "498272618.788844"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tumblr_Feed.DetailViewController.photoUrl.setter : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "Tumblr Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mapara/work/Lab/iosLab/Tumblr%20Feed/Tumblr%20Feed/DetailViewController.swift"
+                  timestampString = "498272618.791213"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "162">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tumblr_Feed.DetailViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Tumblr_Feed.DetailViewController"
+                  moduleName = "Tumblr Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mapara/work/Lab/iosLab/Tumblr%20Feed/Tumblr%20Feed/DetailViewController.swift"
+                  timestampString = "498272618.792797"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tumblr_Feed.DetailViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Tumblr_Feed.DetailViewController&gt;"
+                  moduleName = "Tumblr Feed"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mapara/work/Lab/iosLab/Tumblr%20Feed/Tumblr%20Feed/DetailViewController.swift"
+                  timestampString = "498272618.79425"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tumblr Feed/PhotoViewController.swift"
+            timestampString = "498274963.358697"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tumblr Feed/PhotoViewController.swift"
+            timestampString = "498274963.358697"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
